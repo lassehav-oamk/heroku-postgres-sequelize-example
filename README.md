@@ -59,7 +59,7 @@ The through definition is required.
 User.belongsToMany(Post, {through: 'UserPost', as: 'Likes'});
 Post.belongsToMany(User, {through: 'UserPost', as: 'Likes'}});
 ``` 
-- Both User and Post will have the following methods 
+Both User and Post will have the following methods 
 - .getLikes 
 - .setLikes 
 - .addLike
