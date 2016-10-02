@@ -1,5 +1,5 @@
 # heroku-postgres-sequelize-example
-Example how to run Sequelize with Heroku Postgres
+Example how to run Sequelize with Heroku Postgres. Implements simple REST API with Express/Node.js which offers users, posts and post likes. See the index.js file for route details.
 
 
 ##Sequelize Associations
