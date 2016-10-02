@@ -1,0 +1,27 @@
+{
+  "name": "heroku-postgres-sequelize-example",
+  "version": "1.0.0",
+  "description": "Example how to run Sequelize with Heroku Postgres",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lassehav-oamk/heroku-postgres-sequelize-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lassehav-oamk/heroku-postgres-sequelize-example/issues"
+  },
+  "homepage": "https://github.com/lassehav-oamk/heroku-postgres-sequelize-example#readme",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "pg": "^6.1.0",
+    "sequelize": "^3.24.3"
+  }
+}
